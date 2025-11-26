@@ -1,0 +1,86 @@
+[
+  {
+    "hypothesis_id": "h_creative_1",
+    "validated": true,
+    "p_value": null,
+    "effect_size": null,
+    "evidence": "campaign_ctr=0.0076, impressions=22171"
+  },
+  {
+    "hypothesis_id": "h_creative_2",
+    "validated": true,
+    "p_value": null,
+    "effect_size": null,
+    "evidence": "campaign_ctr=0.0096, impressions=282750"
+  },
+  {
+    "hypothesis_id": "h_creative_3",
+    "validated": true,
+    "p_value": null,
+    "effect_size": null,
+    "evidence": "campaign_ctr=0.0076, impressions=303822"
+  },
+  {
+    "hypothesis_id": "h_creative_4",
+    "validated": true,
+    "p_value": null,
+    "effect_size": null,
+    "evidence": "campaign_ctr=0.0055, impressions=285644"
+  },
+  {
+    "hypothesis_id": "h_creative_5",
+    "validated": true,
+    "p_value": null,
+    "effect_size": null,
+    "evidence": "campaign_ctr=0.0090, impressions=42524"
+  },
+  {
+    "hypothesis_id": "h_creative_6",
+    "validated": true,
+    "p_value": null,
+    "effect_size": null,
+    "evidence": "campaign_ctr=0.0045, impressions=122505"
+  },
+  {
+    "hypothesis_id": "h_creative_7",
+    "validated": true,
+    "p_value": null,
+    "effect_size": null,
+    "evidence": "campaign_ctr=0.0061, impressions=223404"
+  },
+  {
+    "hypothesis_id": "h_creative_8",
+    "validated": true,
+    "p_value": null,
+    "effect_size": null,
+    "evidence": "campaign_ctr=0.0054, impressions=166452"
+  },
+  {
+    "hypothesis_id": "h_creative_9",
+    "validated": true,
+    "p_value": null,
+    "effect_size": null,
+    "evidence": "campaign_ctr=0.0088, impressions=16229885"
+  },
+  {
+    "hypothesis_id": "h_creative_10",
+    "validated": true,
+    "p_value": null,
+    "effect_size": null,
+    "evidence": "campaign_ctr=0.0095, impressions=43599"
+  },
+  {
+    "hypothesis_id": "h_audience_saturation",
+    "validated": false,
+    "p_value": null,
+    "effect_size": null,
+    "evidence": "cp_prev=0.002, cp_last=0.002, cp_change=0.034"
+  },
+  {
+    "hypothesis_id": "h_data_quality",
+    "validated": false,
+    "p_value": null,
+    "effect_size": null,
+    "evidence": "prev_rev=129713.59, last_rev=123937.80, rev_drop_pct=0.04, clicks_change=0.02"
+  }
+]

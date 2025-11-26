@@ -1,0 +1,134 @@
+[
+  {
+    "hypothesis_id": "h_creative_1",
+    "hypothesis": "Campaign ' OMEN COTTON CLASSICS' has low CTR (0.758%) suggesting creative underperformance or poor relevance.",
+    "reasoning": "Campaign-level CTR below configured threshold; creatives may not be resonating.",
+    "expected_signals": [
+      "low_ctr",
+      "low_clicks",
+      "low_conversion_rate"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "hypothesis_id": "h_creative_2",
+    "hypothesis": "Campaign '-omen-Studio Sports' has low CTR (0.956%) suggesting creative underperformance or poor relevance.",
+    "reasoning": "Campaign-level CTR below configured threshold; creatives may not be resonating.",
+    "expected_signals": [
+      "low_ctr",
+      "low_clicks",
+      "low_conversion_rate"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "hypothesis_id": "h_creative_3",
+    "hypothesis": "Campaign 'M-n Bold Colors Drop' has low CTR (0.763%) suggesting creative underperformance or poor relevance.",
+    "reasoning": "Campaign-level CTR below configured threshold; creatives may not be resonating.",
+    "expected_signals": [
+      "low_ctr",
+      "low_clicks",
+      "low_conversion_rate"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "hypothesis_id": "h_creative_4",
+    "hypothesis": "Campaign 'MEN  Signture  Soft' has low CTR (0.551%) suggesting creative underperformance or poor relevance.",
+    "reasoning": "Campaign-level CTR below configured threshold; creatives may not be resonating.",
+    "expected_signals": [
+      "low_ctr",
+      "low_clicks",
+      "low_conversion_rate"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "hypothesis_id": "h_creative_5",
+    "hypothesis": "Campaign 'MEN B LD COLORS DROP' has low CTR (0.896%) suggesting creative underperformance or poor relevance.",
+    "reasoning": "Campaign-level CTR below configured threshold; creatives may not be resonating.",
+    "expected_signals": [
+      "low_ctr",
+      "low_clicks",
+      "low_conversion_rate"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "hypothesis_id": "h_creative_6",
+    "hypothesis": "Campaign 'MEN BOL COLORS DROP' has low CTR (0.452%) suggesting creative underperformance or poor relevance.",
+    "reasoning": "Campaign-level CTR below configured threshold; creatives may not be resonating.",
+    "expected_signals": [
+      "low_ctr",
+      "low_clicks",
+      "low_conversion_rate"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "hypothesis_id": "h_creative_7",
+    "hypothesis": "Campaign 'MEN BOLD  OLORS DROP' has low CTR (0.612%) suggesting creative underperformance or poor relevance.",
+    "reasoning": "Campaign-level CTR below configured threshold; creatives may not be resonating.",
+    "expected_signals": [
+      "low_ctr",
+      "low_clicks",
+      "low_conversion_rate"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "hypothesis_id": "h_creative_8",
+    "hypothesis": "Campaign 'MEN BOLD COL RS DROP' has low CTR (0.538%) suggesting creative underperformance or poor relevance.",
+    "reasoning": "Campaign-level CTR below configured threshold; creatives may not be resonating.",
+    "expected_signals": [
+      "low_ctr",
+      "low_clicks",
+      "low_conversion_rate"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "hypothesis_id": "h_creative_9",
+    "hypothesis": "Campaign 'MEN BOLD COLORS DROP' has low CTR (0.883%) suggesting creative underperformance or poor relevance.",
+    "reasoning": "Campaign-level CTR below configured threshold; creatives may not be resonating.",
+    "expected_signals": [
+      "low_ctr",
+      "low_clicks",
+      "low_conversion_rate"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "hypothesis_id": "h_creative_10",
+    "hypothesis": "Campaign 'MEN COMFORTMA LAUNCH' has low CTR (0.954%) suggesting creative underperformance or poor relevance.",
+    "reasoning": "Campaign-level CTR below configured threshold; creatives may not be resonating.",
+    "expected_signals": [
+      "low_ctr",
+      "low_clicks",
+      "low_conversion_rate"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "hypothesis_id": "h_audience_saturation",
+    "hypothesis": "Possible audience saturation or targeting overlap leading to higher costs (CPM) and lower ROAS.",
+    "reasoning": "When impressions plateau but cost increases, it indicates saturation or audience overlap.",
+    "expected_signals": [
+      "impressions_flat",
+      "cpm_up",
+      "frequency_up"
+    ],
+    "confidence": 0.45
+  },
+  {
+    "hypothesis_id": "h_data_quality",
+    "hypothesis": "Possible tracking or attribution issues causing artificial ROAS fluctuations.",
+    "reasoning": "If purchases or revenue drop without a commensurate drop in clicks/impressions, tracking might be affected.",
+    "expected_signals": [
+      "revenue_drop_without_click_drop",
+      "sudden_zero_values",
+      "missing_dates"
+    ],
+    "confidence": 0.3
+  }
+]
