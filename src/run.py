@@ -23,10 +23,17 @@ logger = logging.getLogger(__name__)
 
 
 def load_config(path: str = CONFIG_PATH) -> dict:
-    """Load YAML config file."""
+    """Load YAML config file and apply simple environment overrides."""
     logger.info("Loading config from %s", path)
     with open(path) as f:
         cfg = yaml.safe_load(f)
+
+    # Allow overriding data path from environment (useful for experiments / prod)
+    env_data_csv = os.getenv("DATA_CSV")
+    if env_data_csv:
+        logger.info("Overriding data_csv from environment: %s", env_data_csv)
+        cfg["data_csv"] = env_data_csv
+
     logger.info("Config loaded successfully")
     return cfg
 
