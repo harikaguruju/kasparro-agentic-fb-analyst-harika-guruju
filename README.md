@@ -83,19 +83,20 @@ kasparro-agentic-fb-analyst-harika-guruju/
 │
 ├── reports/
 │   ├── insights.json               # Generated hypotheses
-│   ├── validations.json            # Hypothesis validation results
-│   ├── creatives.json              # Creative suggestions
-│   └── report.md                   # Final Markdown report
+│   ├── validations.json           # Hypothesis validation results
+│   ├── creatives.json             # Creative suggestions
+│   └── report.md                  # Final Markdown report
 │
 ├── tests/
-│   └── test_evaluator.py           # Pytest for Evaluator logic
+│   └── test_evaluator.py          # Pytest for Evaluator logic
 │
 ├── config/
-│   └── config.yaml                 # Global configuration
+│   └── config.yaml                # Global configuration
 │
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+
 
 
 
