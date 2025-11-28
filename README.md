@@ -63,6 +63,40 @@ The system is a multi-agent AI pipeline that analyzes Facebook Ads performance d
 
 
 \## 📂 Project Structure
+kasparro-agentic-fb-analyst-harika-guruju/
+│
+├── src/
+│   ├── agents/
+│   │   ├── planner.py              # Breaks user query into tasks
+│   │   ├── data_agent.py           # Loads & summarizes Facebook Ads data
+│   │   ├── insight_agent.py        # Generates performance hypotheses
+│   │   ├── evaluator.py            # Validates hypotheses with metrics
+│   │   └── creative_generator.py   # Produces creative improvement ideas
+│   │
+│   ├── utils/
+│   │   └── loader.py               # CSV loading + retry logic + logging
+│   │
+│   └── run.py                      # Main pipeline entrypoint
+│
+├── data/
+│   └── synthetic_fb_ads_undergarments.csv
+│
+├── reports/
+│   ├── insights.json               # Generated hypotheses
+│   ├── validations.json            # Hypothesis validation results
+│   ├── creatives.json              # Creative suggestions
+│   └── report.md                   # Final Markdown report
+│
+├── tests/
+│   └── test_evaluator.py           # Pytest for Evaluator logic
+│
+├── config/
+│   └── config.yaml                 # Global configuration
+│
+├── requirements.txt
+├── README.md
+└── LICENSE
+
 
 
 
