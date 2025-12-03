@@ -10,8 +10,12 @@ from src.agents.data_agent import DataAgent
 from src.agents.insight_agent import InsightAgent
 from src.agents.evaluator import Evaluator
 from src.agents.creative_generator import CreativeGenerator
+from src.utils.logging_config import setup_logging  # NEW IMPORT
 
 CONFIG_PATH = "config/config.yaml"
+
+logger = logging.getLogger(__name__)
+
 
 # ---------- logging setup ----------
 logging.basicConfig(
@@ -39,6 +43,10 @@ def load_config(path: str = CONFIG_PATH) -> dict:
 
 
 def main() -> None:
+    # Setup logging (both file + console)
+    log_path = setup_logging()
+    logger.info("Log file for this run: %s", log_path)
+
     parser = argparse.ArgumentParser()
     parser.add_argument("query", help="User query, e.g. 'Analyze ROAS drop'")
     args = parser.parse_args()
@@ -46,6 +54,7 @@ def main() -> None:
     logger.info("Starting pipeline for query: %s", args.query)
 
     cfg = load_config()
+    ...
 
     # Instantiate agents
     logger.info("Instantiating agents")
